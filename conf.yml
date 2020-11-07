@@ -1,0 +1,10 @@
+artifacts:
+  - name: appConfig
+    type: YAML
+    searchPattern: "**/application.yml"
+  - name: deployTemplate
+    type: YAML
+    searchPattern: "deploy-templates/*.yaml"
+  - name: pom
+    type: XML
+    searchPattern: "**/pom.xml"
